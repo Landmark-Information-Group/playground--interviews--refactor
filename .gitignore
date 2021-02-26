@@ -1,0 +1,8 @@
+bin
+obj
+/Landmark.FloodData/*.user
+packages
+/.vs/Landmark.FloodData/v15/Server/sqlite3
+/.vs/Landmark.FloodData/v15
+/.vs/config
+/.vs/config/applicationhost.config

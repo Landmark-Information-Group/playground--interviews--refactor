@@ -1,0 +1,211 @@
+{ 
+  "@context" : "http://environment.data.gov.uk/flood-monitoring/meta/context.jsonld" ,
+  "meta" : { 
+    "publisher" : "Environment Agency" ,
+    "licence" : "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" ,
+    "documentation" : "http://environment.data.gov.uk/flood-monitoring/doc/reference" ,
+    "version" : "0.9" ,
+    "comment" : "Status: Beta service" ,
+    "hasFormat" : [ "http://environment.data.gov.uk/flood-monitoring/id/floods.csv", "http://environment.data.gov.uk/flood-monitoring/id/floods.rdf", "http://environment.data.gov.uk/flood-monitoring/id/floods.ttl", "http://environment.data.gov.uk/flood-monitoring/id/floods.html" ]
+  }
+   ,
+  "items" : [ { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floods/104678" ,
+    "description" : "Upper River Derwent, Stonethwaite Beck and Derwent Water" ,
+    "eaAreaName" : "North" ,
+    "eaRegionName" : "North West" ,
+    "floodArea" : { 
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/011WAFDW" ,
+      "county" : "Cumbria" ,
+      "notation" : "011WAFDW" ,
+      "polygon" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/011WAFDW/polygon" ,
+      "riverOrSea" : "Derwent, Stonethwaite Beck"
+    }
+     ,
+    "floodAreaID" : "011WAFDW" ,
+    "isTidal" : false ,
+    "message" : "Following rain yesterday lake levels in Derwentwater have risen slightly but with a dry forecast today the level should begin to fall. The forecast is for the Lake levels to continue to fall overnight with the flood alert level expected to remain in force for the rest of the day.  Low lying areas will be affected around the lake. Remain safe, monitor your local weather conditions and be aware of your local surroundings. We will be closely monitoring the situation throughout the day and this message will be updated as the situation changes." ,
+    "severity" : "Flood Alert" ,
+    "severityLevel" : 3 ,
+    "timeMessageChanged" : "2018-12-03T09:37:00" ,
+    "timeRaised" : "2018-12-03T09:37:00" ,
+    "timeSeverityChanged" : "2018-11-28T19:42:00"
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floods/104684" ,
+    "description" : "Upper River Tamar" ,
+    "eaAreaName" : "Cornwall" ,
+    "eaRegionName" : "South West" ,
+    "floodArea" : { 
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/114WAFT1W10A00" ,
+      "county" : "Cornwall, Devon" ,
+      "notation" : "114WAFT1W10A00" ,
+      "polygon" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/114WAFT1W10A00/polygon" ,
+      "riverOrSea" : "River Tamar, River Strat, River Neet, River Ottery, River Kensey"
+    }
+     ,
+    "floodAreaID" : "114WAFT1W10A00" ,
+    "isTidal" : false ,
+    "message" : "The risk of flooding has now reduced and river levels are falling. There will be further moderate to heavy rain this evening Sunday 2nd December, continuing overnight into Monday morning. This rain is currently not expected to result in flooding, but rivers will remain high and we continue to monitor levels and take action as required.\n \nMore heavy rain is forecast on Tuesday 4 December and we expect rivers to respond again increasing flood risk. Please continue to take care near the rivers as they remain high and monitor your local weather conditions." ,
+    "severity" : "Warning no longer in force" ,
+    "severityLevel" : 4 ,
+    "timeMessageChanged" : "2018-12-02T14:44:00" ,
+    "timeRaised" : "2018-12-02T14:44:00" ,
+    "timeSeverityChanged" : "2018-12-02T14:44:00"
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floods/104699" ,
+    "description" : "Middle River Tamar" ,
+    "eaAreaName" : "Cornwall" ,
+    "eaRegionName" : "South West" ,
+    "floodArea" : { 
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/114WAFT1W09A00" ,
+      "county" : "Cornwall, Devon" ,
+      "notation" : "114WAFT1W09A00" ,
+      "polygon" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/114WAFT1W09A00/polygon" ,
+      "riverOrSea" : "River Tamar, River Lyd, River Thrushel"
+    }
+     ,
+    "floodAreaID" : "114WAFT1W09A00" ,
+    "isTidal" : false ,
+    "message" : "The risk of flooding has now reduced and river levels are falling. There will be further moderate to heavy rain this evening Sunday 2nd December, continuing overnight into Monday morning. This rain is currently not expected to result in flooding, but rivers will remain high and we continue to monitor levels and take action as required. \n\nMore heavy rain is forecast on Tuesday 4 December and we expect rivers to respond again increasing flood risk. Please continue to take care near the rivers as they remain high and monitor your local weather conditions." ,
+    "severity" : "Warning no longer in force" ,
+    "severityLevel" : 4 ,
+    "timeMessageChanged" : "2018-12-02T14:47:00" ,
+    "timeRaised" : "2018-12-02T14:47:00" ,
+    "timeSeverityChanged" : "2018-12-02T14:47:00"
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floods/104704" ,
+    "description" : "River Rother and its tributaries from Turks Bridge to the Royal Military Canal" ,
+    "eaAreaName" : "Kent and South London" ,
+    "eaRegionName" : "South East" ,
+    "floodArea" : { 
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/064WAF351" ,
+      "county" : "East Sussex, Kent" ,
+      "notation" : "064WAF351" ,
+      "polygon" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/064WAF351/polygon" ,
+      "riverOrSea" : "River Rother"
+    }
+     ,
+    "floodAreaID" : "064WAF351" ,
+    "isTidal" : false ,
+    "message" : "This Flood Alert has been removed.  \nRiver levels have now peaked across the Rother catchment and are falling. Today, Monday 3 December will be settled with no rainfall expected across the area. However, further rainfall is expected late on Tuesday 4 December and throughout Wednesday 5 December. We will continue to monitor the forecast and re-issue this Flood Alert if necessary." ,
+    "severity" : "Warning no longer in force" ,
+    "severityLevel" : 4 ,
+    "timeMessageChanged" : "2018-12-03T09:39:00" ,
+    "timeRaised" : "2018-12-03T09:39:00" ,
+    "timeSeverityChanged" : "2018-12-03T09:39:00"
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floods/104709" ,
+    "description" : "River Arrow in Herefordshire" ,
+    "eaAreaName" : "West" ,
+    "eaRegionName" : "Midlands" ,
+    "floodArea" : { 
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/031WAF117" ,
+      "county" : "Herefordshire, Powys" ,
+      "notation" : "031WAF117" ,
+      "polygon" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/031WAF117/polygon" ,
+      "riverOrSea" : "River Arrow"
+    }
+     ,
+    "floodAreaID" : "031WAF117" ,
+    "isTidal" : false ,
+    "message" : "This message contains gauge information for Titley Mill. Currently no flooding is expected in other gauge locations.\n\nThis message will be updated by 5:00 pm or if the situation changes.\n\nAt 11 am today\n\nthe level at the Titley Mill Gauge was 0.91 metres and rising. A peak level of between 0.9 and 1.1 metres is expected to occur by midday." ,
+    "severity" : "Flood Alert" ,
+    "severityLevel" : 3 ,
+    "timeMessageChanged" : "2018-12-03T11:32:00" ,
+    "timeRaised" : "2018-12-03T11:32:00" ,
+    "timeSeverityChanged" : "2018-12-03T11:32:00"
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floods/104710" ,
+    "description" : "The tidal Deben estuary" ,
+    "eaAreaName" : "Eastern" ,
+    "eaRegionName" : "Anglian" ,
+    "floodArea" : { 
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/054WACDV4A" ,
+      "county" : "Suffolk" ,
+      "notation" : "054WACDV4A" ,
+      "polygon" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/054WACDV4A/polygon" ,
+      "riverOrSea" : "River Deben, North Sea"
+    }
+     ,
+    "floodAreaID" : "054WACDV4A" ,
+    "isTidal" : true ,
+    "message" : "This message has been issued because there is a possibility of minor flooding to coastal roads and footpaths between 7:45pm and 9:45pm on Monday 3rd December 2018.  Tides are expected to be higher than usual due to the forecast weather conditions during spring tides.   The detailed forecast for those that use it is for a peak level at Harwich of 2.53 mAODN at 8:45pm, on Monday 3rd December 2018, which is 0.72m above tide tables, wind Force 5, West North West. (mAODN is height above average sea level, for more info refer to local tide tables).    Take care on coastal roads and footpaths and don't put yourself in unnecessary danger. We are closely monitoring the situation and not expecting the situation to escalate, or to issue anything else for the following tide." ,
+    "severity" : "Flood Alert" ,
+    "severityLevel" : 3 ,
+    "timeMessageChanged" : "2018-12-03T12:57:00" ,
+    "timeRaised" : "2018-12-03T12:57:00" ,
+    "timeSeverityChanged" : "2018-12-03T12:57:00"
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floods/104712" ,
+    "description" : "The Essex coast from Clacton to and including, St Peters Flat and the Colne and Blackwater estuaries" ,
+    "eaAreaName" : "Eastern" ,
+    "eaRegionName" : "Anglian" ,
+    "floodArea" : { 
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/051WACDV4C" ,
+      "county" : "Essex" ,
+      "notation" : "051WACDV4C" ,
+      "polygon" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/051WACDV4C/polygon" ,
+      "riverOrSea" : "North Sea"
+    }
+     ,
+    "floodAreaID" : "051WACDV4C" ,
+    "isTidal" : true ,
+    "message" : "This message has been issued because there is a possibility of minor flooding to coastal roads and footpaths between 7:45pm and 9:45pm on Monday 3rd December 2018.  Tides are expected to be higher than usual due to the forecast weather conditions during spring tides.   The detailed forecast for those that use it is for a peak level at Clacton of 2.73 mAODN at 8:45pm, on Monday 3rd December 2018, which is 0.8m above tide tables, wind Force 5, West North West. (mAODN is height above average sea level, for more info refer to local tide tables).    Take care on coastal roads and footpaths and don't put yourself in unnecessary danger. We are closely monitoring the situation and not expecting the situation to escalate, or to issue anything else for the following tide." ,
+    "severity" : "Flood Alert" ,
+    "severityLevel" : 3 ,
+    "timeMessageChanged" : "2018-12-03T13:09:00" ,
+    "timeRaised" : "2018-12-03T13:09:00" ,
+    "timeSeverityChanged" : "2018-12-03T13:09:00"
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floods/104713" ,
+    "description" : "The tidal River Yare from Thorpe St Andrew to Breydon Water" ,
+    "eaAreaName" : "Eastern" ,
+    "eaRegionName" : "Anglian" ,
+    "floodArea" : { 
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/054WATBT2" ,
+      "county" : "Norfolk" ,
+      "notation" : "054WATBT2" ,
+      "polygon" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/054WATBT2/polygon" ,
+      "riverOrSea" : "River Yare"
+    }
+     ,
+    "floodAreaID" : "054WATBT2" ,
+    "isTidal" : true ,
+    "message" : "This message has been issued because there is a possibility of minor flooding to riverside roads and footpaths tomorrow morning, Tuesday 4th December 2018, between 7am and 11am.  This is due to the natural tide locking effect of high tidal waters moving up the rivers from Great Yarmouth and Lowestoft that restricts the normal drainage out to sea of the Broads river system at low tide.    We are not currently expecting the situation to escalate, or to issue any further warning messages for this area at this time. We have issued this warning in advance to give people sufficient time to act. Take care on waterside roads and footpaths and don't put yourself in unnecessary danger. We are monitoring the situation and will update this message as necessary." ,
+    "severity" : "Flood Alert" ,
+    "severityLevel" : 3 ,
+    "timeMessageChanged" : "2018-12-03T13:14:00" ,
+    "timeRaised" : "2018-12-03T13:14:00" ,
+    "timeSeverityChanged" : "2018-12-03T13:14:00"
+  }
+  , { 
+    "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floods/104711" ,
+    "description" : "The Suffolk and Essex coast from Felixstowe to Clacton including Orwell and Stour estuaries" ,
+    "eaAreaName" : "Eastern" ,
+    "eaRegionName" : "Anglian" ,
+    "floodArea" : { 
+      "@id" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/054WACDV4B" ,
+      "county" : "Essex, Suffolk" ,
+      "notation" : "054WACDV4B" ,
+      "polygon" : "http://environment.data.gov.uk/flood-monitoring/id/floodAreas/054WACDV4B/polygon" ,
+      "riverOrSea" : "North Sea, River Orwell, River Deben"
+    }
+     ,
+    "floodAreaID" : "054WACDV4B" ,
+    "isTidal" : true ,
+    "message" : "This message has been issued because there is a possibility of minor flooding to coastal roads and footpaths between 7:45pm and 9:45pm on Monday 3rd December 2018.  Tides are expected to be higher than usual due to the forecast weather conditions during spring tides.   The detailed forecast for those that use it is for a peak level at Harwich of 2.53 mAODN at 8:45pm, on Monday 3rd December 2018, which is 0.72m above tide tables, wind Force 5, West North West. (mAODN is height above average sea level, for more info refer to local tide tables).    Take care on coastal roads and footpaths and don't put yourself in unnecessary danger. We are closely monitoring the situation and not expecting the situation to escalate, or to issue anything else for the following tide." ,
+    "severity" : "Flood Alert" ,
+    "severityLevel" : 3 ,
+    "timeMessageChanged" : "2018-12-03T13:02:00" ,
+    "timeRaised" : "2018-12-03T13:02:00" ,
+    "timeSeverityChanged" : "2018-12-03T13:02:00"
+  }
+   ]
+}
