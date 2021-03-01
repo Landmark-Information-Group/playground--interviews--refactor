@@ -102,15 +102,15 @@ namespace Landmark.FloodData.Controllers
 					Severity = (SeverityLevel) item.SeverityLevel
 				};
 
-				switch (item.EaRegionName.ToLower())
+				switch (item.EaAreaName.ToLower())
 				{
-					case "south west":
-					case "south east":
+					case "yorkshire":
+					case "west midlands":
 					{
 						flood.Action = FloodAction.MonitorHourly;
 						break;
 					}
-					case "north west":
+					case "east anglia":
 					{
 						flood.Action = FloodAction.MonitorDaily;
 						break;
