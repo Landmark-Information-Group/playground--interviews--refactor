@@ -17,3 +17,6 @@ The code can be downloaded from the main branch of this repository.
 - The unit tests can be written using any .NET compatible framework
 - This is not a timed task. We are interested in determining a candidates idea of well written, clean code and the ability to determine and code sensible, isolated unit tests.
 - In the unlikely event that the Environment Agency API does not return any flood alerts we have included an example of the response data with the application code.
+
+#### Submission
+Create a public personal git repo and fork the test repository. Update your public repository with your updates and when you are finished, send us a link to this repo in an email.
