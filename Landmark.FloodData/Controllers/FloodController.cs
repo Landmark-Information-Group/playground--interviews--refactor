@@ -35,7 +35,7 @@ namespace Landmark.FloodData.Controllers
 
 				return Ok(processedData);
 			}
-			catch (Exception e)
+			catch (Exception)
 			{
 				return InternalServerError();
 			}
@@ -65,7 +65,7 @@ namespace Landmark.FloodData.Controllers
 
 				return Ok(filteredData);
 			}
-			catch (Exception e)
+			catch (Exception)
 			{
 				return InternalServerError();
 			}
