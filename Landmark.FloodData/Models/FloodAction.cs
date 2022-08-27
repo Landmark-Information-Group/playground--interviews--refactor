@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Landmark.FloodData.Models
+﻿namespace Landmark.FloodData.Models
 {
-	public enum FloodAction
-	{
-		MonitorHourly,
-		MonitorDaily,
-		Ignore
-	}
+    public enum FloodAction
+    {
+        MonitorHourly,
+        MonitorDaily,
+        Ignore
+    }
 }
